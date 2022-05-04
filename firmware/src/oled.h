@@ -1,6 +1,7 @@
 #ifndef __OLED__
 #define __OLED__
 
+#include "config.h"
 #include <avr/pgmspace.h>
 #include <util/delay.h>
 
