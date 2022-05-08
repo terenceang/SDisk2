@@ -62,6 +62,7 @@
  */
 
 #include <avr/io.h>
+#include "config.h"
 
 #ifndef _SOFTI2C_H
 #define _SOFTI2C_H   1
