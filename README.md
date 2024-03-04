@@ -18,7 +18,7 @@ See readme in firmware and PCB section for related info.
 ## To-do old version
 * fix missing voltage regulator
 
-## Upcoping changes
+## Upcoming changes
 * move to SMD
 * use hardware switches
 * use 1.3" display
