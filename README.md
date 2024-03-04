@@ -11,11 +11,11 @@ See readme in firmware and PCB section for related info.
 * All Screen rotation code removed.
 * Buttons re-arranged
 
-# Changes by JPT
+## Changes by JPT
 * fixed schematics: ERC check and RESET signal
 * cleaned up photos
   
-# To-do old version
+## To-do old version
 * fix missing voltage regulator
 
 ## Upcoping changes
