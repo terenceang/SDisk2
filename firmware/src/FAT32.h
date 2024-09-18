@@ -143,8 +143,8 @@ unsigned char           cd(struct dir_Structure* dir);
 unsigned long           getNextCluster(unsigned long clusterNumber);
 unsigned long           allocEmptyCluster();
 
-inline unsigned long    getSector(unsigned long cluster) { return (((cluster-2)*FAT_sectorsPerCluster)+FAT_firstDataSector);}
-inline unsigned long    getCluster(unsigned long sector) { return (sector-FAT_firstDataSector)/FAT_sectorsPerCluster + 2; }
+static inline unsigned long    getSector(unsigned long cluster) { return (((cluster-2)*FAT_sectorsPerCluster)+FAT_firstDataSector);}
+static inline unsigned long    getCluster(unsigned long sector) { return (sector-FAT_firstDataSector)/FAT_sectorsPerCluster + 2; }
 
 #endif
 
