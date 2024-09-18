@@ -58,6 +58,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #include "string.h"
 
 #include "oled.h"
+unsigned char oled_contrast;
+unsigned char ssd1306_offset;
 
 #include "SPI_routines.h"
 #include "SD_routines.h"
